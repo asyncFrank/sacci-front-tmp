@@ -1,0 +1,25 @@
+.internNav {
+  position: fixed;
+  top: 50px;
+  padding: 20px;
+  width: 100%;
+  text-align: center;
+  z-index: 1;
+
+  /* Animations */
+  transition-timing-function: ease-in;
+  transition: all 0.5s;
+}
+.internNav h1 {
+  /* margin:0 4rem; */
+  display: inline-block;
+  font-weight: 500;
+}
+.internNav__black {
+  background-color: #111 !important;
+  color: #fff;
+}
+
+
+
+

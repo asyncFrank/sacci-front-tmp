@@ -1,0 +1,8 @@
+.homeScreen{
+background-color: #111;
+height: 100vh;
+}
+
+.homeScreen h1{
+    color:white;
+}
