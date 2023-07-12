@@ -12,7 +12,7 @@ function Home() {
 
       {/* Banner */}
       <Banner />
-      <Slider />
+      {/* <Slider /> */}
       {/* <Row/> */}
     </div>
   );

@@ -77,7 +77,7 @@ function App() {
               <Routes>
                 {/* Dahboards */}
                 <Route path="/" element={<Home />} />
-                <Route path="/eappresume" element={<Resume />} />
+                {/* <Route path="/eappresume" element={<Resume />} /> */}
 
                 {/* Pages */}
                 {/* Criar Contacts, Startups, News e substituir */}

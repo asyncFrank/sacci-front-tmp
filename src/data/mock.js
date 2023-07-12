@@ -532,10 +532,10 @@ export const links = [
     title: "Dashboard",
 
     links: [
-      {
-        name: "resumo",
-        icon: <MdOutlineSummarize />,
-      },
+      // {
+      //   name: "resumo",
+      //   icon: <MdOutlineSummarize />,
+      // },
     ],
   },
 
@@ -568,10 +568,10 @@ export const links = [
   {
     title: "Apps",
     links: [
-      {
-        name: "calendario",
-        icon: <AiOutlineCalendar />,
-      },
+      // {
+      //   name: "calendario",
+      //   icon: <AiOutlineCalendar />,
+      // },
       {
         name: "acao de marketing",
         icon: <BsKanban />,
@@ -586,45 +586,45 @@ export const links = [
       // },
     ],
   },
-  {
-    title: "Charts",
-    title_Pt_br: "Gráficos",
-    links: [
-      {
-        name: "line",
-        icon: <AiOutlineStock />,
-      },
-      {
-        name: "area",
-        icon: <AiOutlineAreaChart />,
-      },
+  // {
+  //   title: "Charts",
+  //   title_Pt_br: "Gráficos",
+  //   links: [
+  //     {
+  //       name: "line",
+  //       icon: <AiOutlineStock />,
+  //     },
+  //     {
+  //       name: "area",
+  //       icon: <AiOutlineAreaChart />,
+  //     },
 
-      {
-        name: "bar",
-        icon: <AiOutlineBarChart />,
-      },
-      {
-        name: "pie",
-        icon: <FiPieChart />,
-      },
-      {
-        name: "financial",
-        icon: <RiStockLine />,
-      },
-      {
-        name: "color-mapping",
-        icon: <BsBarChart />,
-      },
-      {
-        name: "pyramid",
-        icon: <GiLouvrePyramid />,
-      },
-      {
-        name: "stacked",
-        icon: <AiOutlineBarChart />,
-      },
-    ],
-  },
+  //     {
+  //       name: "bar",
+  //       icon: <AiOutlineBarChart />,
+  //     },
+  //     {
+  //       name: "pie",
+  //       icon: <FiPieChart />,
+  //     },
+  //     {
+  //       name: "financial",
+  //       icon: <RiStockLine />,
+  //     },
+  //     {
+  //       name: "color-mapping",
+  //       icon: <BsBarChart />,
+  //     },
+  //     {
+  //       name: "pyramid",
+  //       icon: <GiLouvrePyramid />,
+  //     },
+  //     {
+  //       name: "stacked",
+  //       icon: <AiOutlineBarChart />,
+  //     },
+  //   ],
+  // },
 ];
 
 export const cartData = [
