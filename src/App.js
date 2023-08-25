@@ -1,33 +1,33 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-import { FiSettings } from "react-icons/fi";
 import { TooltipComponent } from "@syncfusion/ej2-react-popups";
+import { FiSettings } from "react-icons/fi";
+import { BrowserRouter, Route, Routes } from "react-router-dom";
 
-import { Navbar, Footer, Sidebar, ThemeSettings,Startup } from "./components";
+import { Navbar, Sidebar, Startup, ThemeSettings } from "./components";
 import {
-  Customers,
-   Orders,
-  Calendar,
-  Employees,
-  Stacked,
-  Pyramid,
-  Kanban,
   Area,
   Bar,
-  Pie,
-  Financial,
-  ColorPicker,
+  Calendar,
   ColorMapping,
+  ColorPicker,
+  Customers,
   Editor,
-  Resume,
-  Services,
+  Employees,
+  Financial,
+  Kanban,
   Line,
+  Orders,
+  Pie,
+  Pyramid,
+  Stacked
 } from "./pages";
 
 import { useStateContext } from "./contexts/ContextProvider";
-
+import "bootstrap/dist/css/bootstrap.min.css";
 import "./App.css";
 import EventsRobot from "./pages/EventsRobot";
 import Home from "./pages/Home";
+import Contact from "./components/contactDetails/contact";
+import ContactSideBySide from "./pages/teams";
 
 function App() {
   const {
@@ -43,7 +43,7 @@ function App() {
     <div className={currentMode === "Dark" ? "dark" : ""}>
       <BrowserRouter>
         <div className="flex relative dark:bg-main-dark-bg">
-          <div className="fixed right-4 bottom-4" style={{ zIndex: "1000" }}>
+          <div className="fixed right-4 bottom-4" style={{ zIndex: "-1000" }}>
             <TooltipComponent content="Configurações" position="Top">
               <button
                 type="button"
@@ -83,7 +83,10 @@ function App() {
                 {/* Criar Contacts, Startups, News e substituir */}
                 {/* <Route path="/contatos" element={<Services />} />   */}
                 <Route path="/orders" element={<Orders />} />
+                {/* Contatos em Grid */}
                 <Route path="/contatos" element={<Employees />} />
+                {/* Contatos side by side */}
+                <Route path="/contatos-lado-a-lado" element={<ContactSideBySide />} />
                 <Route path="/customers" element={<Customers />} />
                 <Route path="/startups" element={<Home />} />
                 <Route path="/events-robot" element={<EventsRobot />} />
@@ -106,6 +109,7 @@ function App() {
 
                 {/* outros */}
                 <Route path="startup/:id" element={<Startup />}></Route>
+                <Route path="contact/:_id" element={<Contact />}></Route>
               </Routes>
             </div>
           </div>

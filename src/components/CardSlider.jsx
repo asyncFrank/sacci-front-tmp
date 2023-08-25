@@ -30,7 +30,7 @@ export default React.memo(function CardSlider({ data,title,total }) {
       onMouseEnter={() => setShowControls(true)}
       onMouseLeave={() => setShowControls(false)}
     >
-      <h1>{title} -<span> {total}</span></h1>
+      <h3>{title} -<span> {total}</span></h3>
       <div className="wrapper">
         <div
           className={`slider-action left ${

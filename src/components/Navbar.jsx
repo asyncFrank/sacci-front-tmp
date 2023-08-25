@@ -23,7 +23,7 @@ const NavButton = ({ title, customFunc, icon, color, dotColor }) => (
         style={{ background: dotColor }}
         className="absolute inline-flex rounded-full right-2 top-2 p-1 w-3 h-3"
       />
-      {icon}
+      {icon} 
     </button>
   </TooltipComponent>
 );
@@ -84,14 +84,14 @@ const Navbar = () => {
           color={currentColor}
           icon={<BsChatLeft />}
         /> */}
-        <NavButton
+        {/* <NavButton
           title="Notificações"
           dotColor="#03C9D7"
           customFunc={() => handleClick("notification")}
           color={currentColor}
           icon={<RiNotification3Line />}
-        />
-        <TooltipComponent content="Perfil" position="BottomCenter">
+        /> */}
+        {/* <TooltipComponent content="Perfil" position="BottomCenter">
           <div
             className="flex items-center gap-2 cursor-pointer p-1 hover:bg-light-gray rounded-lg"
             onClick={() => handleClick("userProfile")}
@@ -110,11 +110,11 @@ const Navbar = () => {
 
             <MdKeyboardArrowDown className="text-gray-400 text-14" />
           </div>
-        </TooltipComponent>
-        {isClicked.cart && <Cart />}
+        </TooltipComponent> */}
+        {/* {isClicked.cart && <Cart />}
         {isClicked.chat && <Chat />}
         {isClicked.notification && <Notification />}
-        {isClicked.userProfile && <UserProfile />}
+        {isClicked.userProfile && <UserProfile />} */}
       </div>
     </div>
   );

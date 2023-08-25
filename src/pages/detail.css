@@ -1,0 +1,18 @@
+.container{
+    font-size: 1rem;
+    text-align: justify;
+}
+.highlight{
+    font-weight: bold;
+    color:blue
+}
+.highlightName{
+    font-weight: bold;
+    color:blue;
+    font-size: 1.5rem;
+}
+.socialIcon{
+    width: 40px;
+    height: 40px;
+    color:blue;
+}

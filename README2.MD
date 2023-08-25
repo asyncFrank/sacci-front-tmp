@@ -1,0 +1,17 @@
+
+[] - CORRIGIR CHARSET NOS CAMPOS: PROFESSION, PLANTING_CULTURE
+
+
+
+
+
+
+
+
+
+
+
+
+********STARTUPS *****
+
+[] TESTAR COM BANNER DO FERNITURE (Está na área de traballho)

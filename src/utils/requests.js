@@ -3,7 +3,8 @@
 const requests = {
   fetchClassificationsAndStartups: `/classifications/stp-classification`,
   fetchAllStartups: `/startups/all`,
-  fetchAllContacts: `/contacts/all`
+  fetchAllContacts: `/contacts/all`,
+  fetchContactsTest: `/contacts/test-limit`
 
 };
 

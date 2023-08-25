@@ -1,8 +1,15 @@
 import axios from "axios";
 
 
-const instance = axios.create({
-    baseURL:'http://localhost:5555/api'
-})
 
-export default instance;
+//contacts
+const instance1 = axios.create({
+  baseURL: "http://localhost:9002/api",
+});
+//startups
+
+const instance2 = axios.create({
+  baseURL: "http://localhost:5000/api",
+});
+
+export { instance1, instance2 };

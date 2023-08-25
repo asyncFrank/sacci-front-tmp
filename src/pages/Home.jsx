@@ -8,10 +8,10 @@ function Home() {
   return (
     <div className="homeScreen">
       {/* Nav ja está circundado no App.js */}
-      <InternNav />
+      {/* <InternNav /> */}
 
       {/* Banner */}
-      <Banner />
+      {/* <Banner /> */}
       {/* <Slider /> */}
       {/* <Row/> */}
     </div>

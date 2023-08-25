@@ -22,6 +22,7 @@ import {
   BsCurrencyDollar,
   BsShield,
   BsChatLeft,
+  BsUiRadiosGrid,
 } from "react-icons/bs";
 
 import { BiColorFill } from "react-icons/bi";
@@ -548,21 +549,25 @@ export const links = [
         icon: <BsPeopleFill />,
       },
       // {
+      //   name: "contatos-lado-a-lado",
+      //   icon: <BsUiRadiosGrid />,
+      // },
+      // {
       //   name: "orders",
       //   icon: <FcSmartphoneTablet />,
       // },
-      {
-        name: "startups",
-        icon: <MdOutlineRocketLaunch />,
-      },
-      {
-        name: "news-robot",
-        icon: <TiNews />,
-      },
-      {
-        name: "events-robot",
-        icon: <SlEvent />,
-      },
+      // {
+      //   name: "startups",
+      //   icon: <MdOutlineRocketLaunch />,
+      // },
+      // {
+      //   name: "news-robot",
+      //   icon: <TiNews />,
+      // },
+      // {
+      //   name: "events-robot",
+      //   icon: <SlEvent />,
+      // },
     ],
   },
   {
@@ -572,10 +577,10 @@ export const links = [
       //   name: "calendario",
       //   icon: <AiOutlineCalendar />,
       // },
-      {
-        name: "acao de marketing",
-        icon: <BsKanban />,
-      },
+      // {
+      //   name: "acao de marketing",
+      //   icon: <BsKanban />,
+      // },
       // {
       //   name: "editor",
       //   icon: <FiEdit />,
