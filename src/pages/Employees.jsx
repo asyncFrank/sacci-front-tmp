@@ -49,10 +49,12 @@ const Employees = () => {
   // *****
   const [selectedRow, setSelectedRow] = useState();
   const [selectedRows, setSelectedRows] = useState([]);
+
   useEffect(() => {
+    console.log()
     axios
-      // .get("https://node-deploy-sacci-1.onrender.com/api/contacts/all")
-      .get("http://localhost:9002/api/contacts/all")
+      .get("https://node-deploy-sacci-1.onrender.com/api/contacts/all")
+    
       .then((res) => {
         setContacts(res.data);
       })

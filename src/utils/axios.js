@@ -1,10 +1,9 @@
 import axios from "axios";
 
-
-
 //contacts
 const instance1 = axios.create({
-  baseURL: "http://localhost:9002/api",
+  // baseURL: "http://localhost:9002/api",
+  baseURL: "https://node-deploy-sacci-1.onrender.com",
 });
 //startups
 
